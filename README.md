@@ -2,21 +2,40 @@
 
 # Electric Vehicle (EV) Data Analysis - MIS 311
 
-**1. Project Overview**
+## 1. Project Overview
    
-This project focuses on exploratory data analysis (EDA) of electric vehicle (EV) registrations across different cities. The dataset includes details such as vehicle manufacturers, models, model years, and registration locations.
-Purpose
-The purpose of this analysis is to examine trends and patterns in electric vehicle registrations, identify the most popular manufacturers, understand how EV adoption has changed over time, and discover which cities have the highest number of registrations.
+The dataset analysed in this project contains electric vehicle (EV) registration records collected across multiple cities and postal codes. The data provides detailed information about registered clean energy vehicles, including unique identification numbers, geographical locations, vehicle manufacturers, and specific models. This dataset is highly appropriate for analysing consumer purchasing behaviour, manufacturer market share, and overall electric vehicle adoption trends over time.
+Before the cleaning process, the dataset consisted of various registration records across 6 columns:
+-	Vehicle Identification Number
+-	City
+-	Postal Code
+-	Model Year
+-	Make
+-	Model
+  
+The dataset includes both categorical variables (such as City, Make, and Model) and numerical/temporal variables (such as Model Year), enabling frequency distribution analysis, descriptive statistics, and business-oriented data visualisation.
 
-**2. Data Cleaning & Preparation**
+
+## 2. Data Cleaning & Preparation
    
-The raw dataset was cleaned and processed using Microsoft Excel to improve accuracy and reliability.
+To improve data quality and ensure reliable analysis results, several preprocessing and cleaning procedures were conducted using Microsoft Excel.
 
-Cleaning Process
+Handling Missing Values A review of the dataset identified missing values across five variables:
 
-During the data cleaning process, missing values in essential columns like “Vehicle Identification Number”, “City”, “Model Year”, “Make”, and “Model” were removed to keep the data accurate. I also spotted and cleared out duplicate rows to make sure the dataset is clean and reliable. Finally, the “Model Year” column was changed to an integer format for better consistency.
+-	Vehicle Identification Number **(4 missing values)**
+-	City **(2 missing values)**
+-	Model Year **(2 missing values)**
+-	Make **(2 missing values)**
+-	Model **(1 missing value)**
 
-**3. Descriptive Statistics & Key Insights**
+All rows containing these missing values were systematically removed to eliminate potential bias.
+
+**Handling Duplicates**: In addition to missing values, the dataset was checked for redundant entries. The "Remove Duplicates" function in Excel identified and deleted **3 duplicate rows**.
+
+After completing the data cleaning procedures, the final refined dataset consists of exactly **188 valid rows**, ensuring absolute accuracy for the subsequent analysis.
+
+
+## 3. Descriptive Statistics & Key Insights
    
 <img width="278" height="543" alt="Table 1" src="https://github.com/user-attachments/assets/456c2efc-18b7-4aa4-b77c-fab7f81440da" />
 
@@ -30,8 +49,11 @@ Since the dataset consists entirely of categorical and qualitative variables (su
 **Figure 1: Most common manufacturers**
 
 
-**Insight 1: Most Common Manufacturers**
-Tesla has the highest number of vehicles in the dataset, with 74 out of 188 observations, far exceeding other brands such as Nissan (38 vehicles) and Kia (19 vehicles). This suggests that Tesla has a much stronger presence in the dataset, which may reflect higher consumer demand and the increasing popularity of electric vehicles in the automotive market.
+**Insight 1: Manufacturer Market Dominance**
+
+-	**Finding:** Tesla dominates the dataset, accounting for the highest number of registered vehicles with 74 out of 188 observations. It significantly outperforms competitors such as Nissan (38 vehicles) and Kia (19 vehicles).
+  
+-	**Implication:** This commanding market presence reflects higher consumer demand, brand trust, and the increasing popularity of Tesla's technology. For automotive stakeholders and policymakers, this indicates that future infrastructure development (such as EV charging stations) and aftermarket services should heavily consider Tesla compatibility to serve the largest customer segment, while still accommodating the secondary market share held by Nissan and Kia.
 
 
 
@@ -45,8 +67,12 @@ Tesla has the highest number of vehicles in the dataset, with 74 out of 188 obse
 **Figure 3: Cities with the Highest Number of Electric Vehicles**
 
 
-**Insight 2: Model Year Distribution**
-The visual representations show that electric vehicle use has grown significantly in recent years, primarily concentrated in major cities. Distribution by year of manufacture reveals a sharp increase in registrations from 2018 to 2020, with 2020 having the highest number of vehicles, while the city graph shows Seattle, Mukilteo, and Bothell recording the largest number of electric vehicles. Overall, these findings suggest that the rapid growth of electric vehicles is largely driven by urban areas, where charging infrastructure, environmental awareness, and access to newer electric vehicle models are more developed.
+**Insight 2: Urban Concentration & Adoption Trends**
+
+-	**Finding**: Distribution by year of manufacture reveals a sharp upward trend in EV registrations from 2018 to 2020, peaking significantly in 2020. Geographically, these registrations are heavily concentrated in major urban centers, with Seattle, Mukilteo, and Bothell recording the highest numbers.
+  
+-	**Implication**: The rapid adoption of electric vehicles is primarily driven by urban populations, likely due to more developed charging infrastructure, higher environmental awareness, and better access to newer models. The preference for recent model years highlights a strong consumer appetite for updated automotive technologies. To sustain this growth, businesses and local governments should focus on maintaining robust infrastructure in these saturated urban hubs while expanding incentives to neighboring areas.
+
 
 **4. Tools Used**
 - Microsoft Excel
