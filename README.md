@@ -1,6 +1,6 @@
 <img width="770" height="403" alt="ev-2-edit min_-770x403" src="https://github.com/user-attachments/assets/24040f6a-930d-4e9e-aa1f-5fa262a5f724" />
 
-Electric Vehicle (EV) Data Analysis - MIS 311
+**Electric Vehicle (EV) Data Analysis - MIS 311**
 
 **1. Project Overview**
    
@@ -14,9 +14,7 @@ The raw dataset was cleaned and processed using Microsoft Excel to improve accur
 
 Cleaning Process
 
-- Missing values were identified and rows with incomplete information were removed.
-- Duplicate records were removed using Excel’s “Remove Duplicates” function.
-- The dataset was checked to ensure consistency and accuracy before analysis.
+During the data cleaning process, missing values in essential columns like “Vehicle Identification Number”, “City”, “Model Year”, “Make”, and “Model” were removed to keep the data accurate. I also spotted and cleared out duplicate rows to make sure the dataset is clean and reliable. Finally, the “Model Year” column was changed to an integer format for better consistency.
 
 **3. Descriptive Statistics & Key Insights**
    
