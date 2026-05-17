@@ -1,6 +1,6 @@
 <img width="770" height="403" alt="ev-2-edit min_-770x403" src="https://github.com/user-attachments/assets/24040f6a-930d-4e9e-aa1f-5fa262a5f724" />
 
-**Electric Vehicle (EV) Data Analysis - MIS 311**
+# Electric Vehicle (EV) Data Analysis - MIS 311
 
 **1. Project Overview**
    
