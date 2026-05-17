@@ -74,12 +74,12 @@ Since the dataset consists entirely of categorical and qualitative variables (su
 -	**Implication**: The rapid adoption of electric vehicles is primarily driven by urban populations, likely due to more developed charging infrastructure, higher environmental awareness, and better access to newer models. The preference for recent model years highlights a strong consumer appetite for updated automotive technologies. To sustain this growth, businesses and local governments should focus on maintaining robust infrastructure in these saturated urban hubs while expanding incentives to neighboring areas.
 
 
-**4. Tools Used**
+## 4. Tools Used
 - Microsoft Excel
 - Pivot Tables
 - Charts and Visualisations
 
-**5. Author**
+## 5. Author
    
 Nguyen Vo Huynh Huong
 
