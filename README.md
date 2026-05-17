@@ -16,9 +16,32 @@ Cleaning Process
 - The dataset was checked to ensure consistency and accuracy before analysis.
 
 3. Descriptive Statistics & Key Insights
+   
+<img width="278" height="543" alt="Table 1" src="https://github.com/user-attachments/assets/456c2efc-18b7-4aa4-b77c-fab7f81440da" />
+
+Table 1: Descriptive Statistics Summary
+
+
+
+<img width="624" height="310" alt="Figure 1" src="https://github.com/user-attachments/assets/f0386d6e-31e3-4dbc-8aa2-1c3876e8dc1c" />
+
+Figure 1: Most common manufacturers
+
 
 Insight 1: Most Common Manufacturers
 Tesla has the highest number of vehicles in the dataset, with 74 out of 188 observations, far exceeding other brands such as Nissan (38 vehicles) and Kia (19 vehicles). This suggests that Tesla has a much stronger presence in the dataset, which may reflect higher consumer demand and the increasing popularity of electric vehicles in the automotive market.
+
+
+
+<img width="624" height="269" alt="Figure 2" src="https://github.com/user-attachments/assets/3ebec192-8050-4ec8-b111-fda691114b23" />
+
+Figure 2: Model year distribution
+
+<img width="664" height="498" alt="Figure 3" src="https://github.com/user-attachments/assets/4d0a8de8-66d9-4508-8e5b-9bee05a50d49" />
+
+
+Figure 3: Cities with the Highest Number of Electric Vehicles
+
 
 Insight 2: Model Year Distribution
 The visual representations show that electric vehicle use has grown significantly in recent years, primarily concentrated in major cities. Distribution by year of manufacture reveals a sharp increase in registrations from 2018 to 2020, with 2020 having the highest number of vehicles, while the city graph shows Seattle, Mukilteo, and Bothell recording the largest number of electric vehicles. Overall, these findings suggest that the rapid growth of electric vehicles is largely driven by urban areas, where charging infrastructure, environmental awareness, and access to newer electric vehicle models are more developed.
