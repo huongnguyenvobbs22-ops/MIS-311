@@ -18,12 +18,10 @@ Cleaning Process
 3. Descriptive Statistics & Key Insights
 
 Insight 1: Most Common Manufacturers
-Finding: Tesla has the highest number of vehicles in the dataset, with 74 out of 188 observations. It exceeds other manufacturers such as Nissan and Kia by a significant margin.
-Conclusion: This suggests that Tesla has a strong market presence and high consumer demand in the electric vehicle industry.
+Tesla has the highest number of vehicles in the dataset, with 74 out of 188 observations, far exceeding other brands such as Nissan (38 vehicles) and Kia (19 vehicles). This suggests that Tesla has a much stronger presence in the dataset, which may reflect higher consumer demand and the increasing popularity of electric vehicles in the automotive market.
 
 Insight 2: Model Year Distribution
-Finding: The number of electric vehicles increased significantly between 2018 and 2020, reaching the highest level in 2020. Vehicle registrations gradually increased again after 2021.
-Conclusion: This trend indicates growing consumer interest in newer electric vehicle technologies and sustainable transportation.
+The visual representations show that electric vehicle use has grown significantly in recent years, primarily concentrated in major cities. Distribution by year of manufacture reveals a sharp increase in registrations from 2018 to 2020, with 2020 having the highest number of vehicles, while the city graph shows Seattle, Mukilteo, and Bothell recording the largest number of electric vehicles. Overall, these findings suggest that the rapid growth of electric vehicles is largely driven by urban areas, where charging infrastructure, environmental awareness, and access to newer electric vehicle models are more developed.
 
 4. Tools Used
 - Microsoft Excel
