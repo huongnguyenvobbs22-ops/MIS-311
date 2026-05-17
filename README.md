@@ -23,6 +23,7 @@ Cleaning Process
 
 **Table 1: Descriptive Statistics Summary**
 
+Since the dataset consists entirely of categorical and qualitative variables (such as Manufacturer, Model, and City), traditional descriptive statistics like Mean, Median, or Standard Deviation are not applicable. Instead, the analysis focuses on frequency distribution (Count and Percentage) to discover key insights.
 
 
 <img width="624" height="310" alt="Figure 1" src="https://github.com/user-attachments/assets/f0386d6e-31e3-4dbc-8aa2-1c3876e8dc1c" />
