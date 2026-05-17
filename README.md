@@ -1,6 +1,7 @@
 <img width="770" height="403" alt="ev-2-edit min_-770x403" src="https://github.com/user-attachments/assets/24040f6a-930d-4e9e-aa1f-5fa262a5f724" />
 
 Electric Vehicle (EV) Data Analysis - MIS 311
+
 **1. Project Overview**
    
 This project focuses on exploratory data analysis (EDA) of electric vehicle (EV) registrations across different cities. The dataset includes details such as vehicle manufacturers, models, model years, and registration locations.
