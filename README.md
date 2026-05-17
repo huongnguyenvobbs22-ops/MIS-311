@@ -26,6 +26,5 @@ Conclusion: This trend indicates growing consumer interest in newer electric veh
 - Charts and Visualisations
 
 5. Author
-Business Analytics Student
-This project was completed as part of Assignment #1 for MIS 311 – Introduction to Business Analytics.
+Nguyen Vo Huynh Huong
 
